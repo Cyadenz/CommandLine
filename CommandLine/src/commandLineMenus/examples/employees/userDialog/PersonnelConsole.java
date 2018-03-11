@@ -227,7 +227,7 @@ public class PersonnelConsole
 	{
 		PersonnelConsole personnelConsole = 
 				new PersonnelConsole(ManageEmployees.getManageEmployees());
-		if (personnelConsole.verifiePassword())
+//		if (personnelConsole.verifiePassword())
 			personnelConsole.start();
 		
 	}
